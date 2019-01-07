@@ -9,16 +9,19 @@
 	<body>
 		<script src="Exercise-2.js" type="text/javascript"></script>
 	<form>
-		<input type="number" placeholder="Number 1" id="Num1">
-		<input type="number"  placeholder="Number 2" id="Num2">
-		<button class= "button" id="MultiplyButton" value="multiply" onclick="multiply()"> </button>
+		<input type="number" id="Num1">
+		<input type="number" id="Num2">
 
-<button onClick="Divide()" value="devide">Divide</button>
+		<button  type="button" onClick="multiply()"> multiply</button>
+    	<button  type="button" onClick="divide()"> devide</button>
+
+
+<!-- <button onClick="Divide()" value="devide">Divide</button>
 <button id="AddButton">Add</button>
 <button id="SubstractButton">Substract</button>
-
+ -->
 	</form>
 
-<p> the result <span id="result"></span></p>
+<p>The Result is : <span id = "result"></span></p>
 	</body>
 </html>
